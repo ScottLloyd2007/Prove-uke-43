@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bestill produkter</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Forside</a>
+            <a href="sendside1.html">Åpningstider</a>
+            <a href="sendside3.html">Om oss</a>
+        </nav>
+    </header>
+    <h1>produkter</h1>
+    <section>
+        <div class="Vaskemaskin">Vaskemaskin</div>
+        <div class="flaske">Flaske</div>
+        <div class="oppvaskmaskin">Oppvaskemaskin</div>
+        <div class="mikrobølgeovn">Mikrobølgeovn</div>
+        <div class="matboks">Matboks</div>
+    </section>
+    <p></p>
+    <p></p>
+    <form action="https://formsubmit.co/sc.lloyd@gmail.com" method="POST">
+        <label for="Navn">Navn</label>
+        <input type="text" name="name" required placeholder="Ola Nordmann">
+        <label for="email">Email</label>
+        <input type="email" name="email" required placeholder="email">
+        <button type="submit">Send</button>
+   </form>
+</body>
+</html>
+
+<style>
+    section{
+        display: flex;
+        background-color: cadetblue;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+       
+       
+    }
+    div{
+        display: flex;
+        flex: 1;
+        background-color: beige;
+        color: black;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        border: solid black 5px;
+    }
+
+    nav{
+        background-color: cadetblue;
+        text-align: center;
+        padding: 30px;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 50px;
+    }
+    
+</style>

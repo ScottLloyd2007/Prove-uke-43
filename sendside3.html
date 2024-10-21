@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Beliggenhet og kontaktinformasjon</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Forside</a>
+        <a href="sendside1.html">Åpningstider</a>
+        <a href="sendside2.html">Bestill produkter</a>
+    </nav>
+    <h1>Kontaktinformasjon og beliggenhet</h1>
+    <p>Vi har hovedkontorer i Dronningensgate 23 i olso og <br>
+    på stedet hele uka med unntak av helge og fridager</p>
+    <br>
+    <h2>Kontaktinformasjon</h2>
+    <section>
+        <div >telefonnummer: +47 12345678</div>
+        <div >gatenummer: Dronningensgate 23, Oslo</div>
+        <div >email: lokalbedrift@gmail.com</div>
+    </section>
+</body>
+</html>
+
+<style>
+    section{
+        grid-template-columns: repeat(5, 1fr);
+        background-color: cadetblue;
+        align-items: center;
+        justify-content: center;
+        height: 150px;}
+    
+        div{
+        display: flex;
+        flex: 1;
+        background-color: beige;
+        color: black;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        border: solid black 5px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+    }
+
+    nav{
+        background-color: cadetblue;
+        text-align: center;
+        padding: 30px;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 50px;
+    }
+</style>
